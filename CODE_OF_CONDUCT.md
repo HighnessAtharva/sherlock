@@ -11,6 +11,7 @@ identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.
+
 ## Our Standards
 
 Examples of behavior that contributes to a positive environment for our
@@ -58,7 +59,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at yahya.arbabi@gmail.com.
+reported to the community leaders responsible for enforcement at <yahya.arbabi@gmail.com>.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the

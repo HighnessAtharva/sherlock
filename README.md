@@ -21,7 +21,6 @@
 </a>
 </p>
 
-
 ## Installation
 
 ```console
@@ -87,11 +86,13 @@ optional arguments:
 ```
 
 To search for only one user:
+
 ```
 python3 sherlock user123
 ```
 
 To search for more than one user:
+
 ```
 python3 sherlock user1 user2 user3
 ```
@@ -124,7 +125,6 @@ docker run --rm -t -v "$PWD/results:/opt/sherlock/results" mysherlock-image -o /
 
 Docker is instructed to create (or use) the folder `results` in the current working directory and to mount it at `/opt/sherlock/results` on the docker container by using the ```-v "$PWD/results:/opt/sherlock/results"``` options. `Sherlock` is instructed to export the result using the `-o /opt/sherlock/results/text.txt` option.
 
-
 ### Using `docker-compose`
 
 You can use the `docker-compose.yml` file from the repository and use this command:
@@ -134,9 +134,11 @@ docker-compose run sherlock -o /opt/sherlock/results/text.txt user123
 ```
 
 ## Contributing
+
 We would love to have you help us with the development of Sherlock. Each and every contribution is greatly valued!
 
 Here are some things we would appreciate your help on:
+
 - Addition of new site support ¹
 - Bringing back site support of [sites that have been removed](removed_sites.md) in the past due to false positives
 
@@ -157,8 +159,8 @@ Sherlock.  This invocation hides the progress text that Sherlock normally
 outputs, and instead shows the verbose output of the tests.
 
 ```console
-$ cd sherlock/sherlock
-$ python3 -m unittest tests.all --verbose
+cd sherlock/sherlock
+python3 -m unittest tests.all --verbose
 ```
 
 Note that we do currently have 100% test coverage.  Unfortunately, some of
